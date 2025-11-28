@@ -1,0 +1,17 @@
+{
+  "name": "Swyn Sports Board",
+  "short_name": "Swyn",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff6d4",
+  "theme_color": "#ffe084",
+  "description": "Swyn Sports keeps micro-drills and rituals synced with realtime updates and offline support.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ]
+}
+

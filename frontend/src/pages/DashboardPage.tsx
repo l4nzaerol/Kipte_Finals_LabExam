@@ -146,7 +146,7 @@ const DashboardPage = () => {
             </button>
             <button
               className="primary-btn"
-              style={{ background: '#f5a400', boxShadow: '0 12px 22px rgba(245,164,0,0.35)' }}
+              style={{ background: '#1a1a1a', boxShadow: '0 12px 22px rgba(0,0,0,0.25)' }}
               onClick={async () => {
                 await deleteTask(deleteTarget._id);
                 setDeleteModalOpen(false);

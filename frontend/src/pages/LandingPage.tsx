@@ -7,7 +7,12 @@ const LandingPage = () => {
   const hero = (
     <div className="landing-hero">
       <div className="landing-brand">
-        <h1 className="landing-title">Swyn Sports</h1>
+        <div className="soccer-ball-container">
+          <div className="soccer-ball"></div>
+        </div>
+        <div className="landing-title-wrapper">
+          <h1 className="landing-title">Swyn Sports</h1>
+        </div>
         <p className="landing-tagline">Manage your sports rituals with real-time sync</p>
       </div>
     </div>

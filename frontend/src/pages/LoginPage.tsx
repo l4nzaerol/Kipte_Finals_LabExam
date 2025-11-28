@@ -62,7 +62,7 @@ const LoginPage = () => {
               </button>
             </form>
             {error && (
-              <p style={{ color: '#c77700', marginTop: '0.75rem' }}>
+              <p style={{ color: '#666666', marginTop: '0.75rem' }}>
                 {error}
               </p>
             )}

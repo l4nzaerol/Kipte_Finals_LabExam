@@ -44,7 +44,7 @@ const GoogleAuthButton = () => {
         text="continue_with"
       />
       {error && (
-        <p style={{ color: '#c77700', marginTop: '0.5rem', fontSize: '0.9rem', textAlign: 'center' }}>
+        <p style={{ color: '#666666', marginTop: '0.5rem', fontSize: '0.9rem', textAlign: 'center' }}>
           {error}
         </p>
       )}
